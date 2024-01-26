@@ -278,6 +278,14 @@
     
 }
 
+@media (max-width: 690px){
+    .oFirmeImg img{
+        width: 70vw;
+        
+    }
+
+}
+
 
 .oFirmeImg img:hover {
     outline: 0.5rem solid rgba(53, 74, 62, 0.34);
@@ -398,9 +406,17 @@
 }
 
 .tutvuTube iframe{
-    width: 358px;
-    height: 202px;
+    width: 430px;
+    height: 242px;
     
+}
+
+@media (max-width: 480px){
+    .tutvuTube iframe{
+        width: 90vw;
+        height: 50.8vw;
+    }
+
 }
 
 
@@ -455,7 +471,7 @@
     position: relative;
     font-size: 5rem;
     font-weight: 900;
-    color: rgba(212, 218, 231, 0.822);
+    color: rgba(212, 218, 231, 0.404);
     letter-spacing: 1vw;
     transform: translateY(3rem);
     z-index: -1;
