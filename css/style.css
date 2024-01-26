@@ -387,12 +387,14 @@
     flex: 1;
     padding-top: 6rem;
     padding-bottom: 6rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
 }
 
 .tutvu div:nth-child(1){/*video 2 part from 3*/
     flex: 2;
+}
+
+.tutvu div:nth-child(2){
+    padding: 4rem;
 }
 
 .tutvuTube iframe{
