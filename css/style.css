@@ -236,7 +236,7 @@
 /*o firme 2*/
 
 .oFirme{
-    background-color: rgb(185, 197, 224);
+    background-color: rgb(212, 218, 231);
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 92%);
     padding-left: 2rem;
     padding-right: 2rem;
@@ -374,12 +374,24 @@
     
 }
 
+
+
 .tutvu div{
-    flex: 200px;
+    flex: 1;
     padding-top: 6rem;
     padding-bottom: 6rem;
     padding-left: 3rem;
     padding-right: 3rem;
+}
+
+.tutvu div:nth-child(1){/*video 2 part from 3*/
+    flex: 2;
+}
+
+.tutvuTube iframe{
+    width: 358px;
+    height: 202px;
+    
 }
 
 
@@ -434,7 +446,7 @@
     position: relative;
     font-size: 5rem;
     font-weight: 900;
-    color: rgba(185, 191, 192, 0.897);
+    color: rgba(212, 218, 231, 0.822);
     letter-spacing: 1vw;
     transform: translateY(3rem);
     z-index: -1;
@@ -461,12 +473,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-   
-    
-    
-    
-    
-
 }
 
 
@@ -475,7 +481,7 @@
     height: 300px;
     width: 300px;
     text-align: center;
-    margin: 1rem;
+    margin: 1.1rem;
     padding: 2rem;
     box-shadow:  0 0 20px black;
     
