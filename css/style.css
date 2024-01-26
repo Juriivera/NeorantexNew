@@ -5,7 +5,7 @@
 }
 
 
-.inroBox{
+.navBarPlusIntro{
     height: 100vh;
     background-image: url(../img/fasad/7.webp);
     background-repeat: no-repeat;
@@ -18,22 +18,23 @@
     background-color: rgba(0, 0, 0, 0.664);
 }
 
-.contact{
+.contactTop{
     display: flex;
     justify-content: end;
     padding-top: 5px;
     
 }
 
-.contact a{
+.contactTop a{
     text-decoration: none;
     color: white;
     font-size: 11px;
-    padding-right: 2rem;
+    padding-right: 4vw;
+    padding-left: 3px;
 
 }
 
-.contact a:hover{
+.contactTop a:hover{
     color: red;
 }
 
@@ -44,16 +45,20 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 3
     
+}
+
+.navGround div{
+    margin: 5px 0; 
 }
 
 
 
 .brand{
-    padding-left: 2rem;
-    width: 30%;
+    padding-left: 15px;
+    
 }
 
 
@@ -79,22 +84,22 @@
 }
 
 .menu{
-    padding: 1rem;
-    width: 40%;
+    
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: left;
     
 }
 
 .menu a{
-    flex: 5rem;
+    
     font-size: 13px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
-    border-right: 1px solid white;
-    margin-left: 10px;
+    margin-right: 8px;
+    margin-left: 15px;
 }
 
 .menu a:hover{
@@ -102,7 +107,9 @@
 }
 
 .knopka{
-    padding: 1rem;
+    padding-right: 22px;
+    padding-left: 17px;
+    padding-bottom: 3px;
 }
 
 .knopka a{
@@ -110,7 +117,7 @@
     border: 1px solid red;
     border-radius: 1rem;
     color: white;
-    font-size: 1.2vw;
+    font-size: 11px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 0.4vw 1.8vw;
