@@ -318,6 +318,10 @@
 
 /*miks 3*/
 
+.miks{
+    padding: 4rem 0;
+}
+
 .miks h3{
     
     padding: 0.7rem;
@@ -550,7 +554,7 @@
     background-size: cover;
     background-attachment: fixed;
     margin-top: 8rem;
-    padding: 10rem 3rem;
+    padding: 8rem 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
