@@ -6,4 +6,25 @@ const wow = new WOW({
     live: true /* если true, то анимация будет работать даже на динамически добавляемых элементах, если false, то только на тех элементах, которые были на странице при ее загрузке */
   })
   wow.init(); /* Инициализация плагина с установленными выше свойствами */
+
+  var time=2;
+   $('.number').each(function(){
+          var
+          i=1,
+          num=$(this).data('num'),
+          step=1000*time/num,
+          that=$(this),
+          int=setInterval(function(){
+            if(i<=num){
+              that.html(i);
+            }
+            else {
+              clearInterval(int);
+            }
+            i++
+          },step);
+   })
+   
+
+
   

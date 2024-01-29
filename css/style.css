@@ -541,6 +541,50 @@
 }
 
 
+/*counter 6*/
+
+.counter{
+    background-image: linear-gradient(to bottom right, rgba(118, 127, 148, 0.600), rgba(118, 127, 148, 0.600)), url(../img/fasad/4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 8rem;
+    padding: 10rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.counter div{
+    font-size: 3rem;
+    color: white;
+    text-align: center;   
+}
+
+
+.counter p{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.counterLine{
+    border-top: 3px solid red;
+    width: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.counter h3{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.pluss{
+    display: inline;
+}
+
+
 
 
 
