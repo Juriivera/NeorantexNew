@@ -694,6 +694,13 @@
     text-align: center;       
 }
 
+.tehtud a{
+    display: inline-block;
+    margin: 0 1rem;
+    
+    
+}
+
 
 
 /*garant 8*/
@@ -801,7 +808,11 @@
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 1rem 1rem;
+}
+
+.footer div{
+    padding: 1rem;
 }
 
 #footerBrand{
@@ -823,22 +834,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*strelka*/
 
 .top {
     color: rgba(114, 114, 114, 0.479);
