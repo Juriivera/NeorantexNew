@@ -109,6 +109,10 @@
     margin-left: 15px;
 }
 
+.menu div{
+    margin-top: 0;
+}
+
 .menu a:hover{
     color: red;
 }
@@ -133,6 +137,86 @@
 .knopkaMenu a:hover{
     background-color: rgba(255, 0, 0, 0.452);
 }
+
+.menuList{
+    position: relative;  
+    
+}
+
+
+.menu__drop{
+    
+    position: absolute;
+    width: 330%;
+    left: -170px;
+    top: -9999rem;
+    opacity: 0;
+    border-left: 3px solid transparent;
+    transition: 0.5s opacity ;
+    list-style: none;
+    
+    margin: 0; 
+    padding: 0;
+    border-top: 10px solid transparent;
+
+ }
+
+ .menu__drop a{
+     display: block;
+     margin: 0;
+     padding: 10px;
+     font-size: 10px;
+     transition: 0.5s padding;
+     background: rgba(0, 0, 0, 0.664);
+     background: 330;
+    
+ }
+
+ .menu__drop a:hover{
+    padding: 10px 0 10px 15px;
+    color: rgb(252, 92, 92);
+
+ }
+
+
+
+ @media (max-width: 278px){
+    .menu__drop{
+        left: 10px;
+    }
+}
+
+.menuList:hover .menu__drop {
+    opacity: 1;
+    top: 20px;
+}
+
+.menuList:hover .red {
+    color: red;
+}
+
+
+.menuList::after{
+    content: " ";
+    position: absolute;
+    border: 4px solid;
+    border-color: transparent transparent transparent white;
+    top: 11px;
+    left: 4.2rem;
+    transition: 0.5s;
+    
+
+}
+
+.menuList:hover::after{
+    transform: rotate(90deg);
+    border-color: transparent transparent transparent red;
+    
+}
+
+
+
+
 
 
 /*intro 1*/
@@ -287,8 +371,11 @@
 
 @media (max-width: 690px){
     .oFirmeImg img{
-        width: 70vw;
-        
+        width: 70vw;    
+    }
+
+    .oFirme div:first-child{
+        order: 1;
     }
 
 }
