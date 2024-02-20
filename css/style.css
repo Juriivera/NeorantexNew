@@ -5,6 +5,12 @@
 }
 
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .navBarPlusIntro{
     height: 100vh;
     background-image: url(../img/fasad/7.webp);
@@ -767,6 +773,10 @@
    
 }
 
+.tehtudList a:hover{
+    color: red;
+}
+
 .tehtudList h6{
     opacity: 0;
     width: 100%;
@@ -787,6 +797,72 @@
     
     
 }
+
+.modalGalery{/*rabota s galery*/    
+    position: fixed;
+    z-index: 100;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    
+    
+    
+}
+
+
+.modalGalery:target{
+   display: block;
+}
+
+.close{
+    transform: rotate(45deg) !important; 
+    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    transition: 0.4s;
+}
+
+.close:hover{
+    color: red;
+    
+}
+
+.galery1{
+    display: flex;
+    
+    background-color: rgba(0, 0, 0, 0.836);
+    opacity: 1;
+    width:  100vw;
+    height: 100vh; 
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;  
+}
+
+.carousel-item img{  
+    height: max-content;
+    max-height:400px;
+    object-fit:contain ;
+    object-position:center;
+}
+
+.carousel-control-prev{
+    left: -80px;
+    width: 40%;
+    justify-content: start;
+    padding-left: 2rem;
+}
+
+.carousel-control-next{
+    right: -80px;
+    width: 40%;
+    justify-content: end;
+    padding-right: 2rem;
+}
+
+
+
 
 
 
