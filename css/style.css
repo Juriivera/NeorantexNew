@@ -13,7 +13,7 @@ a{
 
 .navBarPlusIntro{
     height: 100vh;
-    background-image: url(../img/fasad/7.webp);
+    background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.062), rgba(212, 218, 231, 0.233)), url(../img/6.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -257,7 +257,7 @@ a{
     display: block;
     font-size: 7vw;
     letter-spacing: 2vw;
-    text-shadow: 0 0 3px #0c0707, 0 0 5px #ff0095;
+    text-shadow: 0 0 7px #0c0707, 0 0 7px black;
     animation-name: moveInLeft;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
@@ -733,7 +733,7 @@ a{
 
 .tehtudList div{
     align-items: center;
-    background-image: url(../img/fasad/7.webp);
+    background-image: url(../img/Neorantex/Torni9/5.jpg);
     background-size: 470px;
     background-repeat: no-repeat;
     background-position: center;
@@ -771,6 +771,11 @@ a{
    background-color: rgba(0, 0, 0, 0.349);
    border-radius: 7px;
    
+}
+
+.tehtudList a{
+    font-size: 2rem;
+    padding: 1.5rem;
 }
 
 .tehtudList a:hover{
@@ -814,24 +819,45 @@ a{
    display: block;
 }
 
+.galery1 h5{
+    position: absolute;
+    top: 2vh;
+    margin-top: 2vw;
+    font-size: 2rem;
+    color: rgb(212, 211, 211);
+    text-align: center;
+    
+}
+
+
+
 .close{
     transform: rotate(45deg) !important; 
     font-size: 3rem;
     position: absolute;
-    top: 0;
-    right: 40px;
+    top: -2rem;
+    right: 0;
     transition: 0.4s;
+    color: rgb(212, 211, 211);
+    padding: 1rem;
+}
+
+@media (max-width: 400px) {
+    .galery1 h5{
+        top: 10vh;
+    }
+
+   
 }
 
 .close:hover{
-    color: red;
+    color: white;
     
 }
 
 .galery1{
-    display: flex;
-    
-    background-color: rgba(0, 0, 0, 0.836);
+    display: flex; 
+    background-color: rgba(0, 0, 0, 0.890);
     opacity: 1;
     width:  100vw;
     height: 100vh; 
@@ -841,8 +867,8 @@ a{
 }
 
 .carousel-item img{  
-    height: max-content;
-    max-height:400px;
+    
+    height:70vh;
     object-fit:contain ;
     object-position:center;
 }
