@@ -823,7 +823,7 @@ a{
     position: absolute;
     top: 2vh;
     margin-top: 2vw;
-    font-size: 2rem;
+    font-size: 4.6vh;
     color: rgb(212, 211, 211);
     text-align: center;
     
@@ -863,7 +863,7 @@ a{
     height: 100vh; 
     align-items: center;
     justify-content: center;
-    overflow: hidden;  
+    overflow-x: hidden; 
 }
 
 .carousel-item img{  
@@ -886,6 +886,62 @@ a{
     justify-content: end;
     padding-right: 2rem;
 }
+
+.modalListImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95vw;
+    height: 100vh;
+    margin-top: 10rem;
+    
+    
+}
+
+.modalListImg h4{
+    color: rgb(212, 211, 211);
+    flex: 100vw;
+    text-align: center;
+
+    
+}
+
+.modalListImg h6{
+    position: absolute;
+    top: 5%;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.582);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    border-radius: 5px;
+    
+}
+
+.modalListImg img{
+    width: 200px;
+    border-radius: 10px;
+    
+}
+
+.modalListImg div:hover{
+    scale: 103%;
+}
+
+.modalListImg a:hover{
+    color: white;
+}
+
+.modalListImg div{
+    position: relative;
+    margin:  2rem;
+    transition: 0.4s;
+    
+}
+
+
+
 
 
 
