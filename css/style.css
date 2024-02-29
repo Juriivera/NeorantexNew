@@ -866,6 +866,34 @@ a{
     overflow-x: hidden; 
 }
 
+.foto1{
+    
+    
+    
+    text-align: center;
+    
+}
+
+.teenused1{
+    margin: 10vw;
+    margin-top: 1rem;
+    color: white;
+    text-align: justify;
+    height: 80vh;
+    
+
+}
+
+.teenused1 img{
+    padding: 1rem; 
+
+}
+
+.teenused1 span{
+    margin: 2rem;
+    
+}
+
 .carousel-item img{  
     
     height:70vh;
